@@ -1,0 +1,36 @@
+.field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  background-color: white;
+  padding: 4px;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: 1rem;
+  position: absolute;
+  top: -13px;
+  left: 20px;
+  font-size: var(--font-sm);
+}
+
+.input {
+  padding: 10px 40px 10px 20px;
+  border: 1px solid var(--color-text);
+  border-radius: 0.375rem;
+  font-size: var(--font-md);
+  border-radius: 50px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.icon {
+    position: absolute;
+    right: 20px;
+    top: 12px
+
+}
